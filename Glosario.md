@@ -4,17 +4,17 @@ En esta imagen se pueden leer el signficado de cada variable del data frame ante
 
 ![image](https://user-images.githubusercontent.com/118769777/220240501-8c21461d-2de5-495b-954e-10fb9bf38014.png)
 
-### Hospitalizacion ETL
+### Hospitalización ETL
 
 **dataframe** = dataframe que contiene los valores de la base de datos provista  
-**duplicados** = Contiene los duplicados de nuestro dataframe  
+**duplicados** = contiene los duplicados de nuestro dataframe  
 **data** = dataframe sin duplicados y sin nulos  
 **registros_Nan** = cantidad de registros con valores Nan(Nulos)  
-**totalnan** = division de registros_Nan por el total de registros   
+**totalnan** = división de registros_Nan por el total de registros   
 **porcentajenan** = es el resultado en porcentaje de totalnan  
 **nombres** = diccionario que contiene todos los nuevos nombres de las columnas  
 
-### Hospitalizacion EDA
+### Hospitalización EDA
 
 **data** = dataframe limpio  
 **conteo_infeccion** = contador de dias con infeccion con valor 0  
@@ -35,14 +35,14 @@ En esta imagen se pueden leer el signficado de cada variable del data frame ante
 **len_cultivo** = longitud de la columna Tipo_cultivo  
 **conteo_agente** = contador de agente aislado con valor "NO"  
 **len_agente** = longitud de la columna Agente_aislado  
-**conteo_patron** = contador de patron de resistencia con valor "NO"  
+**conteo_patron** = contador de patrón de resistencia con valor "NO"  
 **len_patron** = longitud de la columna Patron_resistencia  
-**mapeo_resto** = mapeos segun los valores que tenia cada columna, los valores posibles son: SI = 1 y NO = 0  
-**mapeo_antibiotico** = mapeo de valores para los tipos de antibioticos   
+**mapeo_resto** = mapeos según los valores que tenia cada columna, los valores posibles son: SI = 1 y NO = 0  
+**mapeo_antibiotico** = mapeo de valores para los tipos de antibióticos   
 **mapeo_biopsia** = mapeo de valores para los tipos de biopsia  
-**corr** = grafico de correlaciones entre las variables  
+**corr** = gráfico de correlaciones entre las variables  
 
-### Hospitalizacion Modelo
+### Hospitalización Modelo
 
 **data** = dataframe codificado para el modelo  
 **X1** = dataframe sin la columna Hospitalizacion(variable objetivo)  
@@ -50,17 +50,17 @@ En esta imagen se pueden leer el signficado de cada variable del data frame ante
 **escalador** = objeto de clase minmaxscaler  
 **X** = dataframe escalado para que todas las variables tengan la misma escala  
 **X_train** = Subconjunto con datos de entrenamiento  
-**X_test** = Subconjunto con datos de evaluacion  
+**X_test** = Subconjunto con datos de evaluación  
 **Y_train** = Subconjunto con etiquetas de entrenamiento  
-**Y_test** = Subconjunto con etiquetas para evaluacion  
+**Y_test** = Subconjunto con etiquetas para evaluación  
 **modelo** = objeto de la clase LogisticRegression  
 **y_test_pred** = contiene las etiquetas predichas con el subconjunto X_test  
 **y_train_pred** = contiene las etiquetas predichas con el subconjunto X_train  
-**acc_score** = metrica de evaluaion de modelo  
-**precision** = metrica de evaluacion que combina precision y sensibilidad  
-**cruzada_Score** = metrica de evaluaion de modelo  
-**matrix** = matriz de confusion para evaluar el modelo  
-**cm_display** = objeto de la clase ConfusionMatrixDisplay para visualizar la matriz de confusion  
+**acc_score** = métrica de evaluaión de modelo  
+**precision** = métrica de evaluación que combina precision y sensibilidad  
+**cruzada_Score** = métrica de evaluaion de modelo  
+**matrix** = matriz de confusión para evaluar el modelo  
+**cm_display** = objeto de la clase ConfusionMatrixDisplay para visualizar la matriz de confusión  
 **sensibilidad** = capacidad para identificar los casos positivos  
 **especificidad** = capacidad para identificar los casos negativos  
 
